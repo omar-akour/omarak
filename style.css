@@ -1,0 +1,448 @@
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+}
+
+  header {
+    background-color: rgb(202, 223, 255);
+    width: 100%;
+    position: fixed;
+    top: 0;  /* Keep the header at the top */
+    left: 0; /* Ensure the header spans the entire width */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;  /* Adjust padding to something more reasonable */
+    box-sizing: border-box;  /* Include padding in width/height calculation */}
+
+
+    .logo{
+        color:rgb(38, 121, 247);
+        text-decoration: none;
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    .navigation a{
+      text-decoration: none;
+      color:rgb(65, 139, 250);
+      font-weight: 600;
+      font-size: 1.2em;
+      padding-left: 30px;
+    
+    }
+
+
+    .navigation a:hover{
+      color:rgb(0, 174, 255);
+    }
+    
+    section{
+      padding: 100px 200px;
+    }
+
+    .main{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: url(images/oMAR\ aKOUR.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  
+    }
+.main h2{
+
+  color:rgb(175, 175, 175);
+  font-size: 3em;
+  font-weight: 500;
+}
+.main h3{
+
+  color:rgb(0, 64, 255);
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+    
+.main-btn {
+  color: #2d63da;
+  background-color: #4e7ad8;
+  border-radius: 15px;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 10px;
+  display: inline-block;
+  letter-spacing: 0.3px;
+  margin-top: 40px;
+  transition: background-color 700ms ease, transform 700ms ease; /* Added transition for transform and background-color */
+}
+
+
+.main-btn:hover {
+  background-color: #386bda;
+  transform: scale(1.1);
+}
+  
+ /* Social icons container */
+.social-icons {
+  display: flex; /* Use flexbox to align items horizontally */
+  margin-top: 10px;
+}
+
+/* Style for each individual social icon link */
+.social-icons a {
+  font-size: 40px; /* Size of the icon */
+  color: #18f2f2; /* Default color (incorrect, replaced with brand color) */
+  text-decoration: none; /* Remove underline */
+  margin: 10px 1px; /* Space between each icon */
+  border-radius: 50%; /* Make the icon circular */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for color and size */
+}
+
+/* Hover effect when user hovers over the icon */
+.social-icons a:hover {
+  transform: scale(1.2); /* Slightly increase the size on hover */
+  color: #0051ff; /* Darker color on hover (incorrect, replaced with brand color) */
+}
+
+/* Custom color for Instagram icon */
+.social-icons .instagram {
+  color: #E1306C; /* Instagram's brand color */
+}
+
+.social-icons .instagram:hover {
+  color: #C13584; /* Darker Instagram color on hover */
+  
+}
+
+/* Custom color for LinkedIn icon */
+.social-icons .linkedin {
+  color: #0e76a8; /* LinkedIn blue */
+}
+
+.social-icons .linkedin:hover {
+  color: #0077b5; /* Darker LinkedIn color on hover */
+}
+
+/* Custom color for Facebook icon */
+.social-icons .facebook {
+  color: #1877F2; /* Facebook's brand color */
+}
+
+.social-icons .facebook:hover {
+  color: #2d63da; /* Darker Facebook color on hover */
+}
+
+/* Custom color for YouTube icon */
+.social-icons .youtube {
+  color: #FF0000; /* YouTube's brand color */
+}
+
+.social-icons .youtube:hover {
+  color: #CC0000; /* Darker YouTube color on hover */
+}
+
+
+.title{
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  color: #0026ffb9;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+/* Flexbox for .content to display cards side by side */
+.content {
+  display: flex;
+  justify-content: space-between; /* Space out the cards */
+  gap: 20px; /* Optional: add space between cards */
+  flex-wrap: wrap; /* Allow cards to wrap if the screen size is too small */
+}
+
+/* Make sure the card elements take equal width */
+.card {
+  flex: 1;
+  min-width: 250px; /* Optional: minimum width of each card */
+  box-shadow: 0 50px 25px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.7s ease;
+  margin-left: 10px;
+ 
+}
+
+/* Optional: Card hover effect */
+.card:hover {
+ 
+  transform: scale(1.1);
+ 
+}
+
+
+  .icon{
+    color:#437fff;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .info {
+    text-align: center;
+  }
+  .info .social-icons{
+    color:#9000ff;
+  }
+  
+  .info a {
+    text-decoration: none;
+    color: inherit; /* Ensures the link color matches the parent element's text */
+  }
+  
+  .info h3 {
+    color: #bb45ff;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px 0; /* Adds vertical spacing without affecting horizontal layout */
+  }
+  
+  .projects {
+    background-color: rgb(150, 192, 255);
+    padding: 20px; /* Adds spacing inside the projects container */
+  }
+  
+  .project .content {
+    margin-top: 30px;
+    display: flex; /* Ensures cards are aligned in a row */
+    flex-wrap: wrap; /* Wraps cards to the next line if space runs out */
+    justify-content: center; /* Centers the cards in the container */
+    gap: 20px; /* Adds space between the cards */
+  }
+  
+  .project-card {
+    background-color: purple;
+    color: white; /* Ensures the text is readable on the purple background */
+    border-radius: 10px; /* Adds rounded corners for a modern look */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Refines the shadow for a cleaner effect */
+    width: 280px; /* Sets a consistent width for cards */
+    overflow: hidden;
+    padding: 20px; /* Adds spacing inside the card */
+    text-align: center; /* Centers the text and content */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover animation */
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+    background-color: #6a0dad; /* Slightly darker purple for hover effect */
+  }
+  
+  .project-card h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #e0e0e0; /* Softer text color for description */
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #4b0082;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-card a:hover {
+    background-color: #370061; /* Darker shade for hover effect */
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    padding: 20px; /* Adds spacing around the container */
+  }
+  
+  .projects-card {
+    background-color: #ffffff;
+    min-height: 14em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 280px; /* Consistent card width */
+    overflow: hidden; /* Ensures the content fits neatly within the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .projects-card:hover {
+    transform: scale(1.05); /* Slight enlargement on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .project-image img {
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes inline gap below images */
+    border-bottom: 1px solid #ddd; /* Adds separation between image and info */
+  }
+  .project-image img:hover{
+    opacity:0.97;
+  }
+  .project-info {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .project-category {
+    font-size: 1em;
+    font-weight: 600;
+    color: #555; /* Neutral text color */
+    margin-bottom: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #333; /* Darker text color for emphasis */
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .more-details {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .more-details:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  .project-info{
+    padding:1em;
+  }
+  

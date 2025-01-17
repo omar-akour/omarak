@@ -1,0 +1,254 @@
+
+<section class="" id="projects">
+    <div>
+        <header>
+            <a href="index.html" class="logo"> 𝙷𝚘𝚖𝚎 </a>
+            <nav class="navigation">
+                <a href="#services">Services</a>
+             
+              
+               
+                <a href="#contact">Contact us</a>
+              
+            </nav>
+        </header>
+       
+    </div>
+    <h2 class="title">Projects</h2>
+    <div class="content">
+        <!-- Card 1 -->
+        <div class="projects-card">
+            <div class="project-image">
+                <img src="images/1top-removebg-preview.png" alt="Project 1 Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Category 1</p>
+                <strong class="project-title">Working on</strong>
+                <a href="www.youtube.com/@OmarCodess" class="more-details">More Details</a>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="projects-card">
+            <div class="project-image">
+                <img src="images/36.jpg" alt="Project 2 Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Category 2</p>
+                <strong class="project-title">Working on</strong>
+                <a href="" class="more-details">More Details</a>
+
+               
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="projects-card">
+            <div class="project-image">
+                <img src="images/js.png" alt="Project 3 Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Category 3</p>
+                <strong class="project-title">Working on</strong>
+                <a href="www.youtube.com/@OmarCodess" class="more-details">More Details</a>
+                
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+    
+    
+</section>
+
+<style>
+    html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: rgb(202, 223, 255);
+    width: 100%;
+    position: fixed;
+    top: 0;  /* Keep the header at the top */
+    left: 0; /* Ensure the header spans the entire width */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;  /* Adjust padding to something more reasonable */
+    box-sizing: border-box;  /* Include padding in width/height calculation */}
+    .navigation a{
+      text-decoration: none;
+      color:rgb(65, 139, 250);
+      font-weight: 600;
+      font-size: 1.2em;
+      padding-left: 30px;
+    
+    }
+    .logo{
+        color:rgb(38, 121, 247);
+        
+        font-size: 1.8em;
+        font-weight: 700;
+       
+        padding-left: 10px;
+        padding-right:10px;
+       
+        border-radius: 10px;
+    
+    }
+.logo:hover{
+
+   color:rgb(0, 174, 255);
+   text-decoration:none;
+}
+
+    .navigation a:hover{
+      color:rgb(0, 174, 255);
+    }
+/* Main Container Styling */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.projects{
+    background-color:rgb(168, 168, 168);
+}
+
+/* Card Styling */
+.projects-card {
+    background-color: #ffffff;  /* White background */
+    width: 23em;               /* Fixed card width */
+    min-height: 380px;          /* Ensure consistent height for all cards */
+    border-radius: 10px;        /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    overflow: hidden;           /* Prevent content overflow */
+    display: flex;              /* Flexbox for inner alignment */
+    flex-direction: column;     /* Stack card contents vertically */
+    justify-content: space-between; /* Space between top and bottom contents */
+    transition: transform 1s ease, box-shadow 0.3s ease; /* Hover animation */
+    border:2px solid #e8e8e8;
+}
+
+/* Hover Effect */
+.projects-card:hover {
+    transform: scale(1.05);     /* Slight enlargement */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}
+
+/* Image Styling */
+.project-image img {
+    width: 100%;                /* Full width of the card */
+    height: auto;               /* Maintain aspect ratio */
+    display:block;              /* Remove gaps below the image */
+}
+
+/* Text and Info Section Styling */
+.project-info {
+    padding: 15px;              /* Add padding inside the card */
+    text-align: center;         /* Center-align text */
+}
+
+.project-category {
+    font-size: 1em;             /* Standard size for category text */
+    font-weight: 600;           /* Slightly bold */
+    color: #555;                /* Neutral color */
+    margin-bottom: 10px;        /* Add spacing below category */
+}
+
+.project-title {
+    font-size: 1.2em;           /* Larger font size for title */
+    font-weight: 700;           /* Bold for emphasis */
+    color: #ff0000;                /* Dark text color */
+    margin-bottom: 15px;        /* Spacing below title */
+}
+
+/* Container Styling */
+.projects {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center-aligns all cards horizontally */
+    gap: 20px; /* Space between cards */
+}
+
+/* Card Styling */
+.projects-card {
+    width: 280px; /* Fixed width for consistency */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.more-details {
+    text-decoration: none;      /* Remove underline from links */
+    color: #ffffff;             /* White text */
+    font-weight: 600;           /* Bold text */
+    background-color: #007bff; background-color: #007bff;  /* Blue background */
+    padding: 10px 20px;         /* Padding for button */
+    border-radius: 5px;         /* Rounded corners */
+    display: inline-block;      /* Inline-block for proper button styling */
+    transition: background-color 1s ease; /* Smooth hover effect */
+    
+
+}
+
+.more-details:hover {
+    background-color: #1900ff;  /* Darker blue on hover */
+   
+}
+/* Image Styling */
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Text Content */
+.project-info {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        justify-content: space-evenly; /* Better spacing for smaller screens */
+    }
+    .projects-card {
+        width: 45%; /* 2 cards per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-card {
+        width: 100%; /* Full width on small screens */
+    }
+}
+
+
+/* Ensure Flexbox Gap is Consistent */
+.project-info p,
+.project-title {
+    margin: 0 auto;             /* Center-align text with consistent spacing */
+}
+
